@@ -46,6 +46,7 @@ dependencies:
   google_maps_flutter: ^2.9.0
   location: ^6.0.2
   permission_handler: ^11.3.1
+  table_calendar: ^3.0.0 # Para manejar el calendario
 
 dev_dependencies:
   flutter_test:
@@ -71,8 +72,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-    - assets/icons/
+    - assets/logo.png
+    - assets/fondoLogin.png
+    - assets/facebook.png
+    - assets/google.png
+    - assets/iphone.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
